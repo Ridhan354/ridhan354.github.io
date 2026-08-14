@@ -26,7 +26,8 @@ Portfolio ini menggunakan backend Express/tRPC untuk mengirim email via SMTP. Ka
 4. **Unggah File Baru:**
    - Klik tombol **Add file** $\rightarrow$ **Upload files**.
    - Tarik dan letakkan (*drag and drop*) **seluruh isi file dan folder** dari hasil ekstrak `ridhan-portfolio-github-pages.zip` ke halaman upload GitHub.
-   - Pastikan `index.html` berada tepat di **root folder** (bukan di dalam folder tersembunyi).
+   - Pastikan `index.html` berada tepat di **root folder** dan folder `assets/` berada di sampingnya. Jangan mengunggah file ZIP-nya langsung ke repository.
+   - Folder `assets/` berisi JavaScript, CSS, logo, hero background, dan illustration. Folder ini wajib ikut diunggah agar seluruh gambar tampil.
 5. **Commit Perubahan:**
    - Masukkan pesan commit, contoh: `Update portfolio to modern Warm Professional Craft design`.
    - Klik tombol hijau **Commit changes**.
